@@ -5,9 +5,9 @@ This app insert data into SQLite Database and display this data into ListView.
 Learned
 -----------------------
 - Using ContractClass and HelperClass to create SQlite database. 
+- Using Drawable, Bitmap and ByteArray to take image by camera and save into database.
 - Using Implicit Intent to Phone Call and send email. 
-- Using Explicit intent to transfer between activities into its app.
-- Using ListView, ArrayList and ArrayAdapter to display data from database.
+- Using AsyncTaskLoader to fast load data from database and display into ListView.
 - Using Menu items to insert Dummy data into database and to save data into database.
 - Using FloatingActionButton and ScrollView to add new data. 
 
