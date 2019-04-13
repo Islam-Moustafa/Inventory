@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supplier Name"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/supplierName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_edittexts"
+            android:gravity="center"
+            android:layout_marginRight="8dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supplier Phone"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="8dp"/>
+        <TextView
+            android:id="@+id/supplierPhone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_edittexts"
+            android:gravity="center"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"/>
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="56dp"
+            android:layout_height="28dp"
+            android:text="call"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/rectangle_edittexts"
+            android:src="@drawable/call"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supplier Email"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="8dp"/>
+        <TextView
+            android:id="@+id/supplierEmail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_edittexts"
+            android:gravity="center"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="56dp"
+            android:layout_height="28dp"
+            android:text="email"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/rectangle_edittexts"
+            android:src="@drawable/send_email2"/>
+    </LinearLayout>
+
+
+</LinearLayout>
