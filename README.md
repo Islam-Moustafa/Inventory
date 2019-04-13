@@ -14,4 +14,5 @@ Learned
  
 Screenshots
 ---------------------------------------
-
+![Inventory1](https://user-images.githubusercontent.com/49339964/56084732-1fe0c500-5dec-11e9-8e91-abc10272d497.PNG)
+![Inventory2](https://user-images.githubusercontent.com/49339964/56084734-25d6a600-5dec-11e9-991a-397932f4bba1.PNG)
